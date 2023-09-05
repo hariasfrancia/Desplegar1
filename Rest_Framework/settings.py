@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'Rest_Framework.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Feel free to alter this value to suit your needs.
-        default='sqlite:///bd.sqlite3',
+        default='sqlite:///db.sqlite3',
         conn_max_age=600
     )
 }
